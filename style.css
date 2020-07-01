@@ -64,28 +64,29 @@
 
 .container {
   background-color: white;
-  margin: 20px 100px 20px 20px;
+  margin: 20px 20px;
   width: 100%;
   height: 600px;
 }
 
 .container-lg {
-  margin: 20px 100px 20px 20px;
+  margin: 20px 40px;
 }
 
 .container-md {
-  margin: 20px;
+  margin: 10px;
 }
 
 .container-sm {
-  margin: 20px;
+  margin: 5px;
+  float: none;
 }
 
 .about-me {
   color: lightseagreen;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin-bottom: 10px;
+  margin: 20px 40px;
 }
 
 .about-text {
@@ -93,6 +94,7 @@
   font-size: 18px;
   margin-top: 20px;
 }
+
 hr.solid {
   border-top: 3px solid gray;
 }
@@ -103,9 +105,6 @@ hr.solid {
   margin-right: 20px;
   margin-bottom: 20px;
   float: left;
-}
-
-.text {
 }
 
 .footer {
