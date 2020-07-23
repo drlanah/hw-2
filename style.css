@@ -3,19 +3,16 @@
   height: 100%;
   font-family: "Encode Sans", sans-serif;
 }
-/* 
-.navbar {
-  border-bottom: white solid 10px;
-} */
+
 .navbar-item {
   font-size: 20px;
   font-family: "Nanum Gothic", sans-serif;
 }
 .lana {
-  font-size: 35px;
+  font-size: 40px;
 }
 .is-96x96 {
-  margin: 25px auto;
+  margin: 30px auto;
 }
 
 .connects {
@@ -40,5 +37,9 @@
 .image-main {
   height: 300px;
   width: 300px;
-  margin: 5px auto;
+  margin: 10px auto;
+}
+
+.tile {
+  margin: 15px 10px 25px 10px;
 }
