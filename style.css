@@ -1,10 +1,18 @@
 .body {
   background-color: whitesmoke;
+  height: 100%;
+  font-family: "Encode Sans", sans-serif;
 }
 /* 
 .navbar {
   border-bottom: white solid 10px;
 } */
+
+.navbar-item {
+  font-size: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
 .fix-footer {
   position: absolute;
   width: 100%;
@@ -23,4 +31,5 @@
 .image-main {
   height: 300px;
   width: 300px;
+  margin: 5px auto;
 }
