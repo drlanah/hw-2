@@ -9,13 +9,13 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&family=Nanum+Gothic&display=swap" rel="stylesheet">
   </head>
   <body class="body">
     <header>
       <nav class="navbar is-black" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="index.html">LΔΝΔ</a>
+          <a class="navbar-item lana" href="index.html">LΔΝΔ</a>
   
           <a
             role="button"
@@ -47,31 +47,61 @@
     </header>
     <br />
     <main class="contact">
-      <div class="field">
-        <label class="label is-info is-rounded">Name</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="Name">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <p class="title connects">Connect</p>
+            <p>
+              <a href="https://github.com/drlanah">
+                <img class="image is-96x96" src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="github">
+              </a>
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/elayenay/">
+                <img class="image is-96x96" src="https://nextforme.com/wp-content/uploads/2018/11/linkedin-logo.png" alt="linkedin">
+              </a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/drlanah/">
+                <img class="image is-96x96" src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" alt="instagram">
+              </a>
+            </p>
+          </article>
+        </div>
+        <div class="tile is-parent is-10">
+          <article class="tile is-child box">
+            <p class="title connects">Contact</p>
+            <div class="contactform">
+                <div class="field">
+              <label class="label is-info is-rounded">Name</label>
+              <div class="control">
+                <input class="input" type="text" placeholder="Name">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label is-info is-rounded">Email</label>
+              <div class="control">
+                <input class="input" type="email" placeholder="Email">
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label is-info is-rounded">Message</label>
+              <div class="control">
+                <textarea class="textarea" placeholder="Share your questions, thoughts, comments..."></textarea>
+              </div>
+            </div>     
+            <div class="field is-grouped">
+              <div class="control">
+                <button class="button is-info is-rounded">Submit</button>
+              </div>
+            </div>
+            </div>
+          </article>
         </div>
       </div>
 
-      <div class="field">
-        <label class="label is-info is-rounded">Email</label>
-        <div class="control">
-          <input class="input" type="email" placeholder="Email">
-        </div>
-      </div>
-
-      <div class="field">
-        <label class="label is-info is-rounded">Message</label>
-        <div class="control">
-          <textarea class="textarea" placeholder="Share your questions, thoughts, comments..."></textarea>
-        </div>
-      </div>     
-      <div class="field is-grouped">
-        <div class="control">
-          <button class="button is-info is-rounded">Submit</button>
-        </div>
-      </div>
     </main>
   </body>
 </html>

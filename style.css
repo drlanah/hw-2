@@ -7,10 +7,19 @@
 .navbar {
   border-bottom: white solid 10px;
 } */
-
 .navbar-item {
   font-size: 20px;
   font-family: "Nanum Gothic", sans-serif;
+}
+.lana {
+  font-size: 35px;
+}
+.is-96x96 {
+  margin: 25px auto;
+}
+
+.connects {
+  text-align: center;
 }
 
 .fix-footer {
