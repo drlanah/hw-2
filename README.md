@@ -1,3 +1,5 @@
+https://drlanah.github.io/hw-2/
+
 Profile page developed, responsive to various screen sizes: desktop, tablet, mobile.
 
 HTML semantic elements used: header, body, footer, alt for images, etc.
