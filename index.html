@@ -3,63 +3,90 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lana H. Profile</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css"
+  />
   </head>
 
   <body class="body">
     <header>
-      <!-- nav bar -->
-      <div class="topnav">
-        <a class="active" href="#home">Lana H.</a>
-        <div class="right">
-          <a href="index.html">About</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="contact.html">Contact</a>
+      <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">LANA H.</a>
+  
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+            onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-      </div>
+  
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="index.html">
+              PROFILE
+            </a>
+            <a class="navbar-item" href="portfolio.html">
+              PORTFOLIO
+            </a>
+            <a class="navbar-item" href="contact.html">
+              CONTACT
+            </a>
+          </div>
+        </div>
     </header>
     <br />
-    <main class="container">
-      <!-- about me -->
-      <h1 class="about-me">Profile</h1>
-      <hr class="solid" />
-      <img
-        class="image"
-        src="https://mhpdoctor.com/wp-content/sabai/File/files/l_2adfeca186d013b968998151a4e3bd9b.png"
-        alt="Nurse"
-      />
-      <ul class="about-text">
-        <li>
-          Registered Nurse with 5+ years of professional experience as a
-          traveling and staff nurse in inpatient and outpatient oncology
-          settings.
-        </li>
-        <li>
-          Leadership experience working as a charge nurse and nursing preceptor.
-        </li>
-        <li>
-          Member of Oncology Nursing Society and nursing committee for policy
-          development.
-        </li>
-        <li>
-          B.S. degree in Nursing from Chamberlain University.
-        </li>
-        <li>
-          Currently completing a post-bacc pre-med and a certificate in
-          coding/web development at Columbia University.
-        </li>
-      </ul>
+    <main class="contact">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <article class="tile is-child box">
+            <img
+            class="image-main"
+            src="Assets/image1.png"
+            alt="Nurse"
+            />
+          </article>
+        </div>
+        <div class="tile is-parent is-8">
+          <article class="tile is-child box">
+            <p class="title">Lana H.</p>
+            <p class="subtitle">BSN, RN</p>
+            <div class="content">
+              <ul class="about-text">
+                <li>
+                  Registered Nurse with 5+ years of professional experience as a
+                  traveling and staff nurse in inpatient and outpatient oncology
+                  settings.
+                </li>
+                <li>
+                  Leadership experience working as a charge nurse and nursing preceptor.
+                </li>
+                <li>
+                  Member of Oncology Nursing Society and nursing committee for policy
+                  development.
+                </li>
+                <li>
+                  B.S. degree in Nursing from Chamberlain University.
+                </li>
+                <li>
+                  Currently completing a post-bacc pre-med and a certificate in
+                  coding/web development at Columbia University.
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
     </main>
-    <footer>
-      <!-- copyright tab -->
-      <p class="footer">&#169; 2020</p>
-    </footer>
   </body>
 </html>
