@@ -1,8 +1,17 @@
 .body {
-  background-color: whitesmoke;
+  background-color: black;
 }
 
-.topnav {
+.fix-footer {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  overflow: hidden;
+  color: black;
+}
+
+/* .topnav {
   overflow: hidden;
   background-color: gray;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -33,24 +42,6 @@
   background-color: lightseagreen;
   color: white;
   margin-left: 20px;
-}
-
-.nav {
-  background-color: gray;
-  width: 100%;
-  height: 50px;
-  color: white;
-  border-bottom: 5px lightseagreen solid;
-  justify-content: end;
-}
-
-.nav-link {
-  color: white;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-.nav-item {
-  justify-content: end;
 }
 
 .right {
@@ -86,7 +77,7 @@
   color: lightseagreen;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 20px 40px;
+  margin: 20px 20px;
 }
 
 .about-text {
@@ -139,4 +130,4 @@ hr.solid {
   height: 150px;
   width: 150px;
   margin: 20px;
-}
+} */
